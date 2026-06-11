@@ -14,7 +14,6 @@ function App() {
 <userContext.Provider value = {{count, setCount}}>
 <Counter/>
 </userContext.Provider>
-     <FormikForm/>
     </div>
   );
 }
