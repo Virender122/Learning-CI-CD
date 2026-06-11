@@ -10,11 +10,11 @@ function App() {
   return (
     <div>
      <NewForm></NewForm>
-     {/* <NewApp/> */}
-{/* <userContext.Provider value = {{count, setCount}}>
+     <NewApp/>
+<userContext.Provider value = {{count, setCount}}>
 <Counter/>
-</userContext.Provider> */}
-     {/* <FormikForm/> */}
+</userContext.Provider>
+     <FormikForm/>
     </div>
   );
 }
